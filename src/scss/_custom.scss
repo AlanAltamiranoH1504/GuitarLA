@@ -18,5 +18,9 @@ $h1-font-size: 4.4rem;
 $h3-font-size: 2.6rem;
 $headings-color: $primary;
 
+//Personalizacion de cards
+$card-border-radius: 0;
+//$card-border-width: 0;
+
 // Importar Bootstrap
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';

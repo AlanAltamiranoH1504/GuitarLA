@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuitarLA</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+<!--Seccion de header-->
+<header class="py-5 header">
+    <div class="container-xl">
+        <div class="row justify-content-center justify-content-md-between">
+            <div class="col-md-3 col-sm-8">
+                <a href="index.html" class="">
+                    <img src="build/img/logo.svg" class="img-fluid">
+                </a>
+            </div>
+            <nav class="col-md-6 d-flex flex-column flex-md-row justify-content-md-end align-items-center mt-5 mt-md-0 navegacion">
+                <a href="index.html"
+                   class="d-block px-2 py-1 text-decoration-none fs-6 fw-bold text-uppercase text-white rounded">Inicio</a>
+                <a href="nosotros.html"
+                   class="d-block px-2 py-1 text-decoration-none fs-6 fw-bold text-uppercase text-white rounded">Nosotros</a>
+                <a href="blog.html"
+                   class="d-block px-2 py-1 text-decoration-none fs-6 fw-bold text-uppercase text-white rounded">
+                    Blog</a>
+                <a href="tienda.html"
+                   class="d-block px-2 py-1 text-decoration-none fs-6 fw-bold text-uppercase text-white rounded">Tienda</a>
+            </nav>
+        </div> <!--Cierra row-->
+    </div>
+</header>
+
+<!--Seccion de productos-->
+<main class="container-xl mt-5">
+    <h2 class="text-primary fw-bold text-center">Producto</h2>
+    <div class="row justify-content-center">
+        <div class="col-lg-8 my-4 row align-items-center">
+            <div class="col-4">
+                <img src="build/img/guitarra_01.jpg" class="img-fluid">
+            </div>
+            <div class="col-8">
+                <h3 class="text-uppercase text-black">Lukather</h3>
+                <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    l</p>
+                <p class="text-primary fw-bolder fs-3">$299</p>
+                <form class="mb-4">
+                    <p class="form-label fs-5">Cantidad:</p>
+                    <select class="form-control py-2">
+                        <option>---Seleccione una cantidad---</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </form>
+                <a href="" class="text-white btn bg-primary text-uppercase fw-bold d-block py-2">Agregar al Carrito</a>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+<!--Footer de la pagina-->
+<footer class="mt-5 py-5 bg-dark">
+    <div class="container-xl d-md-flex justify-content-md-between">
+        <div class="d-flex flex-column flex-md-row gap-md-5 align-items-center">
+            <a href="index.html" class="fs-4 text-white text-decoration-none">Inicio</a>
+            <a href="nosotros.html" class="fs-4 text-white text-decoration-none">Nosotros</a>
+            <a href="blog.html" class="fs-4 text-white text-decoration-none">Blog</a>
+            <a href="tienda.html" class="fs-4 text-white text-decoration-none">Tienda</a>
+        </div>
+        <p class="fs-4 text-white text-center mt-4 align-items-center mt-md-0">Todos los derechos reservados</p>
+    </div>
+</footer>
+</body>
+</html>
